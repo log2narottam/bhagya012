@@ -1,0 +1,16 @@
+{
+"Resources":{
+"mySubnet" : {
+  "Type" : "AWS::EC2::Subnet",
+    "Properties" : {
+      "VpcId" : "vpc-0eec971a0611feb28",
+      "AvailabilityZone" : "us-east-2a",
+      "CidrBlock" : "10.192.10.0/24",
+   "MapPublicIpOnLaunch" : "true",
+      "Tags": [
+          {"Key" : "stack", "Value" : "production"}
+        ] 
+}
+}
+}
+}
